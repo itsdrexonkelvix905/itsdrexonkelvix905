@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/drexonkelvix-alt/drexonkelvix-alt/main/drexon-kelvix-banner.svg" width="100%" alt="Drexon Kelvix Banner"/>
+<img src="https://raw.githubusercontent.com/itsdrexonkelvix905/itsdrexonkelvix905/main/drexon-kelvix-banner.svg" width="100%" alt="Drexon Kelvix Banner"/>
 
 <br/>
 
