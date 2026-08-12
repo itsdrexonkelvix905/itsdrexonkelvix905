@@ -127,24 +127,12 @@
 
 <div align="center">
 
-## 📡 Currently Learning
-
-![Advanced Networking](https://img.shields.io/badge/-Advanced_Networking-0A0A0A?style=flat-square&labelColor=0A0A0A&color=00E5FF)
-![Offensive Security](https://img.shields.io/badge/-Offensive_Security-0A0A0A?style=flat-square&labelColor=0A0A0A&color=00E5FF)
-![System Design](https://img.shields.io/badge/-System_Design-0A0A0A?style=flat-square&labelColor=0A0A0A&color=00E5FF)
 
 </div>
 
 <br/>
 
 <div align="center">
-
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.shion.dev/api?username=drexonkelvix-alt&theme=aura&hide_border=true&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=drexonkelvix-alt&theme=aura&hide_border=true&layout=compact" width="30%" alt="Top Languages"/>
-
-<img src="https://streak-stats.demolab.com/?user=drexonkelvix-alt&theme=aura&hide_border=true" width="60%" alt="GitHub Streak"/>
 
 </div>
 
@@ -154,25 +142,17 @@
 
 ## 📡 Connect
 
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:drexonkelvix@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0077B5)](https://linkedin.com/in/Itsdrexonkelvix905)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:drexonkelvix@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0077B5)](https://www.linkedin.com/in/drexon-kelvix-2813a63b2/)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=X&logoColor=white)](https://x.com/Itsdrexonkelvix905)
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/drexonkelvix-alt)
 [![Facebook](https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=1877F2)](https://facebook.com/Itsdrexonkelvix905)
-[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/Itsdrexonkelvix905)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@Itsdrexonkelvix905)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/itsdrexonkelvix905/)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@itsdrexonkelvix)
 [![Pinterest](https://img.shields.io/badge/Pinterest-000000?style=for-the-badge&logo=pinterest&logoColor=E60023)](https://pinterest.com/Itsdrexonkelvix905)
-[![Reddit](https://img.shields.io/badge/Reddit-000000?style=for-the-badge&logo=reddit&logoColor=FF4500)](https://reddit.com/user/Itsdrexonkelvix905)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@Itsdrexonkelvix905)
-[![YouTube](https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://youtube.com/@Itsdrexonkelvix905)
-[![Facebook](https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=1877F2)](https://facebook.com/Itsdrexonkelvix905)
-[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/Itsdrexonkelvix905)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@Itsdrexonkelvix905)
-[![Pinterest](https://img.shields.io/badge/Pinterest-000000?style=for-the-badge&logo=pinterest&logoColor=E60023)](https://pinterest.com/Itsdrexonkelvix905)
-[![Reddit](https://img.shields.io/badge/Reddit-000000?style=for-the-badge&logo=reddit&logoColor=FF4500)](https://reddit.com/user/Itsdrexonkelvix905)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@Itsdrexonkelvix905)
-[![YouTube](https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://youtube.com/@Itsdrexonkelvix905)
-
+[![Reddit](https://img.shields.io/badge/Reddit-000000?style=for-the-badge&logo=reddit&logoColor=FF4500)](https://www.reddit.com/user/itsdrexonkelvix905/)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@drexonkelvix905)
+[![YouTube](https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@DREXONKELVIX905)
 <br/>
 
 <sub>© Drexon Kelvix — Derek Johnson Elvis</sub>
