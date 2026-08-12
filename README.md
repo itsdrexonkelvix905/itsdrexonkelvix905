@@ -1,7 +1,11 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/itsdrexonkelvix905/itsdrexonkelvix905/main/drexon-kelvix-banner.svg" width="100%" alt="Drexon Kelvix Banner"/>
 
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=900&lines=DREXON+KELVIX;SOFTWARE+DEVELOPER;CYBERSECURITY+ENTHUSIAST;COMPUTER+ENGINEER" alt="Drexon Kelvix"/>
+
+</div>
 <br/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Consolas&size=40&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=DREXON+KELVIX;Software+Developer;Cybersecurity+Enthusiast;Computer+Engineer" alt="Drexon Kelvix"/>
