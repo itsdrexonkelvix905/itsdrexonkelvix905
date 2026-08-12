@@ -155,6 +155,7 @@
 [![Reddit](https://img.shields.io/badge/Reddit-000000?style=for-the-badge&logo=reddit&logoColor=FF4500)](https://www.reddit.com/user/itsdrexonkelvix905/)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@drexonkelvix905)
 [![YouTube](https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@DREXONKELVIX905)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/255624222544)
 
 <br/>
 
