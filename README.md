@@ -4,8 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Consolas&size=20&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Software+Developer;Cybersecurity+Enthusiast;Computer+Engineering+Student" alt="Typing SVG" />
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Consolas&size=40&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=DREXON+KELVIX;Software+Developer;Cybersecurity+Enthusiast;Computer+Engineer" alt="Drexon Kelvix"/>
 </div>
 
 <br/>
