@@ -1,55 +1,24 @@
-<!-- =====================================================
-     DREXON KELVIX — PREMIUM GITHUB README
-====================================================== -->
-
 <div align="center">
 
-  <!-- PREMIUM ELECTRIC BLUE SVG BANNER -->
-  <img
-    src="https://raw.githubusercontent.com/itsdrexonkelvix905/itsdrexonkelvix905/main/drexon-kelvix-banner.svg"
-    width="100%"
-    alt="DREXON KELVIX"
-  />
+<img
+  src="https://raw.githubusercontent.com/itsdrexonkelvix905/itsdrexonkelvix905/main/drexon-kelvix-banner.svg"
+  width="100%"
+  alt="DREXON KELVIX"
+/>
 
-  <br><br>
+<br>
 
-  <h2>⌬ DREXON KELVIX</h2>
+<h3>Computer Engineer · Cybersecurity · Software Developer</h3>
 
-  <p>
-    <strong>Computer Engineering</strong>
-    &nbsp;•&nbsp;
-    <strong>Cybersecurity</strong>
-    &nbsp;•&nbsp;
-    <strong>Software Development</strong>
-  </p>
+<p>
+  Building secure systems, software and practical cybersecurity solutions.
+</p>
 
 </div>
 
+---
 
-<!-- =====================================================
-     ABOUT
-====================================================== -->
-
-## About
-
-Computer Engineering student focused on building secure systems,
-software, cybersecurity tools and practical engineering solutions.
-
-Currently exploring:
-
-- Cybersecurity & Red Team
-- Software Development
-- Network Security
-- Linux & System Engineering
-- AI & Automation
-- Security Tool Development
-
-
-<!-- =====================================================
-     CORE STACK
-====================================================== -->
-
-## ⚡ Core Stack
+## Core Technologies
 
 <div align="center">
 
@@ -57,118 +26,138 @@ Currently exploring:
 
 <br><br>
 
-<img src="https://cdn.simpleicons.org/nmap/00C8FF" height="48" />
+<img src="https://cdn.simpleicons.org/nmap/00C8FF" height="42" />
 &nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/burpsuite/00C8FF" height="48" />
-
-</div>
-
-
-<!-- =====================================================
-     CYBERSECURITY
-====================================================== -->
-
-## Cybersecurity Focus
-
-<div align="center">
-
-| Area | Focus |
-|---|---|
-| Red Team | Reconnaissance • Enumeration • Exploitation |
-| Web Security | OWASP • Burp Suite • Web Testing |
-| Network Security | Nmap • Network Enumeration |
-| Linux Security | Linux • Bash • System Administration |
-| Security Tools | Building practical security utilities |
-| CTF | Web • Network • Linux • Privilege Escalation |
-
-</div>
-
-
-<!-- =====================================================
-     DEVELOPMENT
-====================================================== -->
-
-## Development
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js,php,html,css,mysql,git,github&theme=dark" />
-
-</div>
-
-
-<!-- =====================================================
-     AI & AUTOMATION
-====================================================== -->
-
-## AI & Automation
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python&theme=dark" />
-
+<img src="https://cdn.simpleicons.org/burpsuite/00C8FF" height="42" />
 &nbsp;&nbsp;
-
-<img src="https://cdn.simpleicons.org/openai/00C8FF" height="48" />
-
+<img src="https://cdn.simpleicons.org/openai/00C8FF" height="42" />
 &nbsp;&nbsp;
-
-<img src="https://cdn.simpleicons.org/n8n/00C8FF" height="48" />
+<img src="https://cdn.simpleicons.org/n8n/00C8FF" height="42" />
 
 </div>
 
+---
 
-<!-- =====================================================
-     CURRENT PROJECTS
-====================================================== -->
+## Focus
 
-## Current Projects
+<table align="center">
+<tr>
+
+<td align="center" width="180">
+
+<img src="https://cdn.simpleicons.org/linux/00C8FF" width="32">
+
+<br>
+
+<b>Linux</b>
+
+</td>
+
+<td align="center" width="180">
+
+<img src="https://cdn.simpleicons.org/nmap/00C8FF" width="32">
+
+<br>
+
+<b>Network Security</b>
+
+</td>
+
+<td align="center" width="180">
+
+<img src="https://cdn.simpleicons.org/burpsuite/00C8FF" width="32">
+
+<br>
+
+<b>Web Security</b>
+
+</td>
+
+<td align="center" width="180">
+
+<img src="https://cdn.simpleicons.org/python/00C8FF" width="32">
+
+<br>
+
+<b>Security Tools</b>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Projects
+
+<table align="center">
+
+<tr>
+
+<td width="50%">
 
 ### DREXON OS
-Cybersecurity-oriented Linux environment and engineering workspace.
+
+Linux-based cybersecurity and engineering environment focused on security, development and system tooling.
+
+</td>
+
+<td width="50%">
 
 ### H4CKSEC
-Cybersecurity, programming and AI learning ecosystem.
+
+Cybersecurity, programming and AI learning ecosystem for practical technical development.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
 
 ### Security Tools
-Building practical tools for reconnaissance, analysis and security testing.
+
+Practical tools for reconnaissance, analysis, automation and security testing.
+
+</td>
+
+<td width="50%">
 
 ### AI Security Assistant
-AI-powered assistant for cybersecurity notes, explanations,
-analysis and security workflow automation.
 
+AI-powered assistant for cybersecurity knowledge, analysis and workflow automation.
 
-<!-- =====================================================
-     CONNECT
-====================================================== -->
+</td>
 
-## Connect With Me
+</tr>
+
+</table>
+
+---
+
+## Connect
 
 <div align="center">
 
 <a href="https://github.com/itsdrexonkelvix905">
-<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00C8FF" />
+<img src="https://img.shields.io/badge/GitHub-0A0F14?style=for-the-badge&logo=github&logoColor=00C8FF">
 </a>
 
 <a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00C8FF" />
+<img src="https://img.shields.io/badge/LinkedIn-0A0F14?style=for-the-badge&logo=linkedin&logoColor=00C8FF">
 </a>
 
 <a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00C8FF" />
+<img src="https://img.shields.io/badge/Email-0A0F14?style=for-the-badge&logo=gmail&logoColor=00C8FF">
 </a>
 
 </div>
-
-
-<!-- =====================================================
-     FOOTER
-====================================================== -->
 
 <br>
 
 <div align="center">
 
-```text
-DREXON KELVIX
-COMPUTER ENGINEERING // CYBERSECURITY // SOFTWARE DEVELOPMENT
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020508,50:061522,100:020508&height=2&section=footer">
+
+</div>
