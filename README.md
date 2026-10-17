@@ -1,310 +1,192 @@
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/itsdrexonkelvix905/itsdrexonkelvix905/main/drexon-kelvix-banner.svg"
-  width="100%"
-  alt="DREXON banner"
-/>
+<img src="https://raw.githubusercontent.com/itsdrexonkelvix905/itsdrexonkelvix905/main/drexon-kelvix-banner.svg" alt="DREXON banner: Computer Engineer, Cybersecurity, Software Developer" width="100%" />
 
-<br>
+<br />
 
-<h1>DREXON</h1>
+# DREXON
 
-<h3>Computer Engineer · Cybersecurity · Software Developer</h3>
+**Computer Engineer · Cybersecurity · Software Developer**
 
-<p>
-  Building secure systems, software and practical cybersecurity solutions.
-</p>
+<sub>aka <code>dr3x0n</code></sub>
 
-<sub><code>dr3x0n</code></sub>
+<br />
 
-</div>
+> Building secure systems, software and practical cybersecurity solutions.
 
----
+<br />
 
-## Profile Highlights
-
-<table align="center">
-<tr>
-
-<td align="center" width="200" valign="top">
-<b>Focus</b>
-<br>
-<sub>Secure systems and practical security</sub>
-</td>
-
-<td align="center" width="200" valign="top">
-<b>Engineering</b>
-<br>
-<sub>Linux, Python, C and C++</sub>
-</td>
-
-<td align="center" width="200" valign="top">
-<b>Building</b>
-<br>
-<sub>DREXON OS and H4CKSEC</sub>
-</td>
-
-<td align="center" width="200" valign="top">
-<b>Interests</b>
-<br>
-<sub>Web security, networking and AI automation</sub>
-</td>
-
-</tr>
-</table>
-
----
-
-## Core Technologies
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,python,js,php,bash,linux,git,github,mysql,docker&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=c,cpp,python,js,php,bash,linux,git,github,mysql,docker&theme=light">
-  <img
-    src="https://skillicons.dev/icons?i=c,cpp,python,js,php,bash,linux,git,github,mysql,docker&theme=dark"
-    alt="Core technologies: C, C++, Python, JavaScript, PHP, Bash, Linux, Git, GitHub, MySQL, Docker"
-  />
-</picture>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Nmap-080B12?style=flat-square&logo=nmap&logoColor=00C8FF" alt="Nmap" />
-<img src="https://img.shields.io/badge/Burp_Suite-080B12?style=flat-square&logo=burpsuite&logoColor=00C8FF" alt="Burp Suite" />
-<img src="https://img.shields.io/badge/Wireshark-080B12?style=flat-square&logo=wireshark&logoColor=00C8FF" alt="Wireshark" />
-<img src="https://img.shields.io/badge/Kali_Linux-080B12?style=flat-square&logo=kalilinux&logoColor=00C8FF" alt="Kali Linux" />
-<img src="https://img.shields.io/badge/Metasploit-080B12?style=flat-square&logo=metasploit&logoColor=00C8FF" alt="Metasploit" />
-<img src="https://img.shields.io/badge/OpenAI-080B12?style=flat-square&logo=openai&logoColor=00C8FF" alt="OpenAI" />
-<img src="https://img.shields.io/badge/n8n-080B12?style=flat-square&logo=n8n&logoColor=00C8FF" alt="n8n" />
+[Profile](#profile) · [Stack](#technology-stack) · [Specialties](#cybersecurity-specialties) · [Projects](#featured-projects) · [Tools](#tools-and-research-interests) · [Learning](#learning-and-certifications) · [Contact](#contact)
 
 </div>
 
----
+<br />
 
-## Focus Areas
+## Profile
+
+I'm a computer engineer working at the intersection of **software development** and **cybersecurity**. My focus is on building systems that are secure by design, and on turning security knowledge into practical tools, repeatable workflows and usable environments.
+
+I learn by building: Linux-based tooling, automation, analysis utilities and AI-assisted security workflows.
+
+<br />
+
+## Technology Stack
 
 <table align="center">
-<tr>
-
-<td align="center" width="220" valign="top">
-<img src="https://cdn.simpleicons.org/linux/00C8FF" width="32" alt="Linux and Systems" />
-<br>
-<b>Linux and Systems</b>
-<br>
-<sub>Environments, system tooling and administration</sub>
-</td>
-
-<td align="center" width="220" valign="top">
-<img src="https://cdn.simpleicons.org/nmap/00C8FF" width="32" alt="Network Security" />
-<br>
-<b>Network Security</b>
-<br>
-<sub>Authorized reconnaissance and analysis</sub>
-</td>
-
-<td align="center" width="220" valign="top">
-<img src="https://cdn.simpleicons.org/burpsuite/00C8FF" width="32" alt="Web Application Security" />
-<br>
-<b>Web Application Security</b>
-<br>
-<sub>Application testing and assessment</sub>
-</td>
-
-</tr>
-<tr>
-
-<td align="center" width="220" valign="top">
-<img src="https://cdn.simpleicons.org/python/00C8FF" width="32" alt="Security Tools and Automation" />
-<br>
-<b>Security Tools and Automation</b>
-<br>
-<sub>Custom tooling and scripted workflows</sub>
-</td>
-
-<td align="center" width="220" valign="top">
-<img src="https://cdn.simpleicons.org/cplusplus/00C8FF" width="32" alt="Programming and Software Development" />
-<br>
-<b>Programming and Software Development</b>
-<br>
-<sub>Systems and application development</sub>
-</td>
-
-<td align="center" width="220" valign="top">
-<img src="https://cdn.simpleicons.org/openai/00C8FF" width="32" alt="AI Engineering and Workflow Automation" />
-<br>
-<b>AI Engineering and Workflow Automation</b>
-<br>
-<sub>AI-assisted analysis and automation</sub>
-</td>
-
-</tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Languages</strong><br /><br />
+      <img src="https://skillicons.dev/icons?i=c,cpp,py,js,php,bash&theme=dark" alt="Languages: C, C++, Python, JavaScript, PHP, Bash" />
+    </td>
+    <td align="center" width="50%">
+      <strong>Platforms and Tooling</strong><br /><br />
+      <img src="https://skillicons.dev/icons?i=linux,git,github,mysql,docker&theme=dark" alt="Platforms and tooling: Linux, Git, GitHub, MySQL, Docker" />
+    </td>
+  </tr>
 </table>
 
----
+<br />
+
+## Cybersecurity Specialties
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Reconnaissance</strong><br />
+      <sub>Information gathering and attack-surface discovery as the first step of any assessment.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>Network Analysis</strong><br />
+      <sub>Inspecting traffic and services to understand how systems communicate and where they are exposed.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>Security Testing</strong><br />
+      <sub>Practical, hands-on testing of applications and systems to find and understand weaknesses.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Security Automation</strong><br />
+      <sub>Scripting and workflow automation to make repetitive security tasks faster and consistent.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>Secure Linux Environments</strong><br />
+      <sub>Building and tuning Linux systems for security work, development and system tooling.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>AI-Assisted Security</strong><br />
+      <sub>Exploring how AI can support security knowledge, analysis and workflow automation.</sub>
+    </td>
+  </tr>
+</table>
+
+<br />
 
 ## Featured Projects
 
-<table align="center">
-<tr>
-
-<td width="50%" valign="top">
-
-<h3>DREXON OS</h3>
-
-<p>Linux-based cybersecurity and engineering environment focused on security, development and system tooling.</p>
-
-<sub><code>Linux</code> · <code>Security</code> · <code>System Tooling</code></sub>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3>H4CKSEC</h3>
-
-<p>Cybersecurity, programming and AI learning ecosystem for practical technical development.</p>
-
-<sub><code>Cybersecurity</code> · <code>Programming</code> · <code>AI</code></sub>
-
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" valign="top">
-
-<h3>Security Tools</h3>
-
-<p>Practical tools for reconnaissance, analysis, automation and security testing.</p>
-
-<sub><code>Reconnaissance</code> · <code>Analysis</code> · <code>Automation</code></sub>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3>AI Security Assistant</h3>
-
-<p>AI-powered assistant concept for cybersecurity knowledge, analysis and workflow automation.</p>
-
-<sub><code>Concept</code> · <code>AI</code> · <code>Workflow Automation</code></sub>
-
-</td>
-
-</tr>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>DREXON OS</h3>
+      <img src="https://img.shields.io/badge/Status-Work_in_progress-C8FF00?style=flat-square&labelColor=080808" alt="Status: work in progress" /><br /><br />
+      Linux-based cybersecurity and engineering environment focused on security, development and system tooling.<br /><br />
+      <img src="https://skillicons.dev/icons?i=linux,bash&theme=dark" alt="Linux and Bash" height="32" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>H4CKSEC</h3>
+      <img src="https://img.shields.io/badge/Status-Work_in_progress-C8FF00?style=flat-square&labelColor=080808" alt="Status: work in progress" /><br /><br />
+      Cybersecurity, programming and AI learning ecosystem for practical technical development.<br /><br />
+      <img src="https://skillicons.dev/icons?i=py,js&theme=dark" alt="Python and JavaScript" height="32" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Security Tools</h3>
+      <img src="https://img.shields.io/badge/Status-Work_in_progress-C8FF00?style=flat-square&labelColor=080808" alt="Status: work in progress" /><br /><br />
+      Practical tools for reconnaissance, analysis, automation and security testing.<br /><br />
+      <img src="https://skillicons.dev/icons?i=py,bash,c&theme=dark" alt="Python, Bash and C" height="32" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>AI Security Assistant</h3>
+      <img src="https://img.shields.io/badge/Status-Concept-FF5C23?style=flat-square&labelColor=080808" alt="Status: concept" /><br /><br />
+      AI assistant concept for cybersecurity knowledge, analysis and workflow automation.<br /><br />
+      <img src="https://img.shields.io/badge/OpenAI-168BFF?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/n8n-168BFF?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+    </td>
+  </tr>
 </table>
 
-<!--
-When you have real repository URLs, link each title, for example:
-<h3><a href="https://github.com/itsdrexonkelvix905/REPO-NAME">DREXON OS</a></h3>
-Remove this comment once done.
--->
+<!-- Maintenance note: when a project repository is public and verified, add a link
+     under its description, for example:
+     <a href="https://github.com/itsdrexonkelvix905/REPOSITORY_NAME">Repository</a>
+     using the real repository name. -->
 
----
+<br />
 
-## Cybersecurity Tools and Research Interests
+## Tools and Research Interests
 
-<table align="center">
-<tr>
-
-<td width="50%" valign="top">
-
-<b>Tools</b>
-
-<p>
-Nmap · Burp Suite · Wireshark · Kali Linux · Metasploit · Bash · Python
-</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-<b>Research Interests</b>
-
-<ul>
-<li>Authorized security labs</li>
-<li>Web security</li>
-<li>Networking</li>
-<li>Penetration-testing fundamentals</li>
-<li>Scripting and automation</li>
-<li>Technical write-ups</li>
-</ul>
-
-</td>
-
-</tr>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Security Tools</strong><br /><br />
+      <img src="https://img.shields.io/badge/Nmap-168BFF?style=flat-square" alt="Nmap" />
+      <img src="https://img.shields.io/badge/Burp_Suite-168BFF?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+      <img src="https://img.shields.io/badge/Wireshark-168BFF?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
+      <img src="https://img.shields.io/badge/Kali_Linux-168BFF?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux" />
+      <img src="https://img.shields.io/badge/Metasploit-168BFF?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit" />
+      <br /><br />
+      <strong>Automation and AI</strong><br /><br />
+      <img src="https://img.shields.io/badge/OpenAI-168BFF?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/n8n-168BFF?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Research Interests</strong><br /><br />
+      <img src="https://img.shields.io/badge/-AI--assisted_security_analysis-080B12?style=flat-square&labelColor=00C8FF" alt="Research interest: AI-assisted security analysis" /><br />
+      <img src="https://img.shields.io/badge/-Security_workflow_automation-080B12?style=flat-square&labelColor=00C8FF" alt="Research interest: security workflow automation" /><br />
+      <img src="https://img.shields.io/badge/-Reconnaissance_and_analysis_tooling-080B12?style=flat-square&labelColor=00C8FF" alt="Research interest: reconnaissance and analysis tooling" /><br />
+      <img src="https://img.shields.io/badge/-Linux_system_tooling-080B12?style=flat-square&labelColor=00C8FF" alt="Research interest: Linux system tooling" />
+    </td>
+  </tr>
 </table>
 
-<p align="center">
-  <sub>All security testing is performed only in authorized, controlled environments.</sub>
-</p>
+<br />
 
----
+## Learning and Certifications
 
-## Learning and Development
-
-<table align="center">
-<tr>
-
-<td width="50%" valign="top">
-
-<b>Currently developing</b>
-
-<ul>
-<li>Linux system tooling and administration</li>
-<li>Web and network security fundamentals</li>
-<li>Security scripting with Python and Bash</li>
-<li>AI-assisted security workflows</li>
-</ul>
-
-</td>
-
-<td width="50%" valign="top">
-
-<b>Approach</b>
-
-<ul>
-<li>Practical, hands-on learning</li>
-<li>Documented technical notes</li>
-<li>Building tools to understand concepts</li>
-<li>Responsible, authorized testing only</li>
-</ul>
-
-</td>
-
-</tr>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Currently Learning</strong><br /><br />
+      Offensive and defensive security fundamentals<br />
+      Secure software development<br />
+      AI and automation for security workflows
+    </td>
+    <td width="50%" valign="top">
+      <strong>Verified Certifications</strong><br /><br />
+      <img src="https://img.shields.io/badge/None_listed_yet-FF5C23?style=flat-square&labelColor=080808" alt="No verified certifications listed yet" /><br /><br />
+      <sub>Certifications will be added here once earned and verifiable.</sub>
+    </td>
+  </tr>
 </table>
 
-<!--
-Certifications: none supplied yet, so none are listed.
-Add only verified credentials later, for example:
-- Certification name, issuer, year (with a verification link if available)
--->
+<br />
 
----
-
-## Connect
+## Contact
 
 <div align="center">
 
 <a href="https://github.com/itsdrexonkelvix905">
-  <img
-    src="https://img.shields.io/badge/GitHub-080B12?style=for-the-badge&logo=github&logoColor=00C8FF"
-    alt="GitHub: itsdrexonkelvix905"
-  />
+  <img src="https://img.shields.io/badge/GitHub-itsdrexonkelvix905-168BFF?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="GitHub profile: itsdrexonkelvix905" />
 </a>
 
 </div>
 
-<br>
+<br />
+
+---
 
 <div align="center">
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:020508,50:061522,100:020508&height=2&section=footer"
-  width="100%"
-  alt=""
-/>
+<sub><strong>DREXON</strong> · Computer Engineer · Cybersecurity · Software Developer</sub>
 
 </div>
