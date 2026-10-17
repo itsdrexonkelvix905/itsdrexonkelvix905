@@ -1,784 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1600"
-     height="450"
-     viewBox="0 0 1600 450">
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="450" viewBox="0 0 1600 450">
   <defs>
-
-    <!-- =====================================================
-         BACKGROUND
-    ====================================================== -->
-
-    <linearGradient id="bg"
-      x1="0%" y1="0%"
-      x2="100%" y2="100%">
-
-      <stop offset="0%"   stop-color="#010305"/>
-      <stop offset="45%"  stop-color="#040A10"/>
-      <stop offset="100%" stop-color="#000102"/>
-
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090B09"/>
+      <stop offset=".6" stop-color="#10120E"/>
+      <stop offset="1" stop-color="#080808"/>
     </linearGradient>
-
-
-    <radialGradient id="coreAtmosphere"
-      cx="50%"
-      cy="48%"
-      r="55%">
-
-      <stop offset="0%"
-            stop-color="#00D9FF"
-            stop-opacity=".16"/>
-
-      <stop offset="35%"
-            stop-color="#008CFF"
-            stop-opacity=".08"/>
-
-      <stop offset="70%"
-            stop-color="#0066FF"
-            stop-opacity=".025"/>
-
-      <stop offset="100%"
-            stop-color="#000000"
-            stop-opacity="0"/>
-
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C8FF00"/>
+      <stop offset="1" stop-color="#FF5C23"/>
+    </linearGradient>
+    <radialGradient id="ambient">
+      <stop stop-color="#C8FF00" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#C8FF00" stop-opacity="0"/>
     </radialGradient>
-
-
-    <!-- =====================================================
-         TITLE GRADIENT
-    ====================================================== -->
-
-    <linearGradient id="title"
-      x1="0%" y1="0%"
-      x2="100%" y2="100%">
-
-      <stop offset="0%"
-            stop-color="#FFFFFF"/>
-
-      <stop offset="22%"
-            stop-color="#E8FBFF"/>
-
-      <stop offset="48%"
-            stop-color="#7AE9FF"/>
-
-      <stop offset="72%"
-            stop-color="#00C8FF"/>
-
-      <stop offset="100%"
-            stop-color="#0088FF"/>
-
-    </linearGradient>
-
-
-    <!-- =====================================================
-         ELECTRIC LINE
-    ====================================================== -->
-
-    <linearGradient id="electric"
-      x1="0%" y1="0%"
-      x2="100%" y2="0%">
-
-      <stop offset="0%"
-            stop-color="#006EFF"
-            stop-opacity="0"/>
-
-      <stop offset="20%"
-            stop-color="#00AFFF"/>
-
-      <stop offset="50%"
-            stop-color="#00E5FF"/>
-
-      <stop offset="80%"
-            stop-color="#00AFFF"/>
-
-      <stop offset="100%"
-            stop-color="#006EFF"
-            stop-opacity="0"/>
-
-    </linearGradient>
-
-
-    <!-- =====================================================
-         GRID
-    ====================================================== -->
-
-    <pattern id="grid"
-      width="80"
-      height="80"
-      patternUnits="userSpaceOnUse">
-
-      <path
-        d="M80 0H0V80"
-        fill="none"
-        stroke="#0A2635"
-        stroke-width="1"
-        opacity=".42"/>
-
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C8FF00" stroke-opacity=".07"/>
     </pattern>
-
-
-    <!-- =====================================================
-         GLOW
-    ====================================================== -->
-
-    <filter id="blueGlow"
-      x="-100%"
-      y="-100%"
-      width="300%"
-      height="300%">
-
-      <feGaussianBlur
-        stdDeviation="10"
-        result="blur"/>
-
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-
-    <filter id="smallGlow"
-      x="-100%"
-      y="-100%"
-      width="300%"
-      height="300%">
-
-      <feGaussianBlur
-        stdDeviation="3"
-        result="blur"/>
-
-    </filter>
-
-
-    <!-- =====================================================
-         SHARP TITLE CLIP
-    ====================================================== -->
-
-    <clipPath id="titleClip">
-
-      <rect
-        x="300"
-        y="120"
-        width="1000"
-        height="110"/>
-
+    <clipPath id="frame">
+      <rect width="1600" height="450" rx="12"/>
     </clipPath>
-
-
-    <!-- =====================================================
-         ANIMATIONS
-    ====================================================== -->
-
-    <style>
-
-      .pulse {
-        animation:pulse 3s ease-in-out infinite;
-      }
-
-      @keyframes pulse {
-
-        0%,100% {
-          opacity:.35;
-        }
-
-        50% {
-          opacity:1;
-        }
-
-      }
-
-
-      .flow {
-        stroke-dasharray:18 12;
-        animation:flow 1.5s linear infinite;
-      }
-
-      @keyframes flow {
-
-        to {
-          stroke-dashoffset:-60;
-        }
-
-      }
-
-
-      .scan {
-        animation:scan 5s linear infinite;
-      }
-
-      @keyframes scan {
-
-        from {
-          transform:translateY(-100px);
-        }
-
-        to {
-          transform:translateY(550px);
-        }
-
-      }
-
-
-      .blink {
-        animation:blink 1s steps(2) infinite;
-      }
-
-      @keyframes blink {
-
-        50% {
-          opacity:0;
-        }
-
-      }
-
-    </style>
-
   </defs>
 
-
-  <!-- =====================================================
-       BASE
-  ====================================================== -->
-
-  <rect
-    width="1600"
-    height="450"
-    fill="url(#bg)"/>
-
-
-  <!-- BLUE ATMOSPHERE -->
-
-  <rect
-    width="1600"
-    height="450"
-    fill="url(#coreAtmosphere)"/>
-
-
-  <!-- GRID -->
-
-  <rect
-    width="1600"
-    height="450"
-    fill="url(#grid)"
-    opacity=".55"/>
-
-
-  <!-- =====================================================
-       TOP SYSTEM BAR
-  ====================================================== -->
-
-  <line
-    x1="55"
-    y1="42"
-    x2="1545"
-    y2="42"
-    stroke="#0C3448"
-    stroke-width="1"/>
-
-
-  <circle
-    cx="72"
-    cy="42"
-    r="3"
-    fill="#00D9FF"
-    class="pulse"/>
-
-
-  <text
-    x="88"
-    y="47"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="12"
-    font-weight="700"
-    letter-spacing="4"
-    fill="#6C9CB2">
-
-    DREXON // ENGINEERING CORE
-
-  </text>
-
-
-  <text
-    x="1515"
-    y="47"
-    text-anchor="end"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="11"
-    font-weight="700"
-    letter-spacing="3"
-    fill="#3F7087">
-
-    SYSTEM ONLINE
-
-  </text>
-
-
-  <!-- =====================================================
-       CIRCUIT NETWORK
-  ====================================================== -->
-
-  <g
-    fill="none"
-    stroke="#008DFF"
-    stroke-width="2"
-    opacity=".7">
-
-    <path d="
-      M55 105
-      H180
-      L215 140
-      H350
-    "/>
-
-    <path d="
-      M1545 105
-      H1420
-      L1385 140
-      H1250
-    "/>
-
-    <path d="
-      M55 355
-      H180
-      L215 320
-      H330
-    "/>
-
-    <path d="
-      M1545 355
-      H1420
-      L1385 320
-      H1270
-    "/>
-
-  </g>
-
-
-  <!-- CIRCUIT NODES -->
-
-  <g fill="#00D9FF">
-
-    <circle
-      cx="180"
-      cy="105"
-      r="4"
-      class="pulse"/>
-
-    <circle
-      cx="350"
-      cy="140"
-      r="3"/>
-
-    <circle
-      cx="1420"
-      cy="105"
-      r="4"
-      class="pulse"/>
-
-    <circle
-      cx="1250"
-      cy="140"
-      r="3"/>
-
-    <circle
-      cx="180"
-      cy="355"
-      r="3"/>
-
-    <circle
-      cx="1420"
-      cy="355"
-      r="3"/>
-
-  </g>
-
-
-  <!-- =====================================================
-       CENTRAL ELECTRIC CORE
-  ====================================================== -->
-
-  <g transform="translate(800 155)">
-
-    <circle
-      r="92"
-      fill="none"
-      stroke="#006EFF"
-      stroke-width="1"
-      opacity=".12"/>
-
-    <circle
-      r="72"
-      fill="none"
-      stroke="#00BFFF"
-      stroke-width="1"
-      opacity=".22"
-      class="flow"/>
-
-    <circle
-      r="48"
-      fill="#02080D"
-      stroke="#00D9FF"
-      stroke-width="1.5"
-      opacity=".8"/>
-
-    <!-- CORE GLOW -->
-
-    <circle
-      r="28"
-      fill="#00CFFF"
-      opacity=".18"
-      filter="url(#blueGlow)"/>
-
-
-    <!-- ANGULAR CORE -->
-
-    <path
-      d="
-        M12 -34
-        L-18 -2
-        H-2
-        L-13 34
-        L25 -12
-        H7
-        Z
-      "
-      fill="#E9FCFF"/>
-
-    <path
-      d="
-        M12 -34
-        L-18 -2
-        H-2
-        L-13 34
-        L25 -12
-        H7
-        Z
-      "
-      fill="none"
-      stroke="#00D9FF"
-      stroke-width="2"
-      filter="url(#smallGlow)"/>
-
-  </g>
-
-
-  <!-- =====================================================
-       MAIN BRAND
-  ====================================================== -->
-
-
-  <!-- TITLE GLOW -->
-
-  <text
-    x="800"
-    y="255"
-    text-anchor="middle"
-    font-family="Orbitron, Rajdhani, 'Eurostile', 'Arial Narrow', sans-serif"
-    font-size="82"
-    font-weight="900"
-    font-style="italic"
-    letter-spacing="9"
-    fill="#00BFFF"
-    opacity=".6"
-    filter="url(#blueGlow)">
-
-    DREXON KELVIX
-
-  </text>
-
-
-  <!-- TITLE SHADOW -->
-
-  <text
-    x="800"
-    y="255"
-    text-anchor="middle"
-    font-family="Orbitron, Rajdhani, 'Eurostile', 'Arial Narrow', sans-serif"
-    font-size="82"
-    font-weight="900"
-    font-style="italic"
-    letter-spacing="9"
-    fill="#00141F"
-    stroke="#00AFFF"
-    stroke-width="3"
-    opacity=".9">
-
-    DREXON KELVIX
-
-  </text>
-
-
-  <!-- MAIN TITLE -->
-
-  <text
-    x="800"
-    y="255"
-    text-anchor="middle"
-    font-family="Orbitron, Rajdhani, 'Eurostile', 'Arial Narrow', sans-serif"
-    font-size="82"
-    font-weight="900"
-    font-style="italic"
-    letter-spacing="9"
-    fill="url(#title)"
-    stroke="#DDFBFF"
-    stroke-width=".8">
-
-    DREXON KELVIX
-
-  </text>
-
-
-  <!-- =====================================================
-       SHARP CUT LINES
-  ====================================================== -->
-
-  <path
-    d="M380 274 L430 255"
-    stroke="#00D9FF"
-    stroke-width="3"/>
-
-  <path
-    d="M1170 255 L1220 274"
-    stroke="#00D9FF"
-    stroke-width="3"/>
-
-
-  <path
-    d="M455 282 H1145"
-    stroke="url(#electric)"
-    stroke-width="2"/>
-
-
-  <path
-    d="M600 282 H1000"
-    stroke="#E8FBFF"
-    stroke-width="1"
-    opacity=".7"/>
-
-
-  <!-- =====================================================
-       SUBTITLE
-  ====================================================== -->
-
-  <text
-    x="800"
-    y="315"
-    text-anchor="middle"
-    font-family="Rajdhani, 'Segoe UI', sans-serif"
-    font-size="18"
-    font-weight="600"
-    letter-spacing="7"
-    fill="#B7DCEB">
-
-    COMPUTER ENGINEERING
-
-    <tspan fill="#00D9FF">
-      //
-    </tspan>
-
-    CYBERSECURITY
-
-    <tspan fill="#00D9FF">
-      //
-    </tspan>
-
-    SOFTWARE DEVELOPMENT
-
-  </text>
-
-
-  <!-- =====================================================
-       TERMINAL STATUS
-  ====================================================== -->
-
-  <text
-    x="800"
-    y="350"
-    text-anchor="middle"
-    font-family="'Courier New', monospace"
-    font-size="13"
-    letter-spacing="3"
-    fill="#54798C">
-
-    <tspan fill="#00D9FF">
-      &gt;
-    </tspan>
-
-    drexon@core:
-    
-    <tspan fill="#7EB9CC">
-      ~
-    </tspan>
-
-    $ initialize_secure_environment
-
-    <tspan
-      fill="#00D9FF"
-      class="blink">
-      █
-    </tspan>
-
-  </text>
-
-
-  <!-- =====================================================
-       LOWER DATA STRIP
-  ====================================================== -->
-
-  <line
-    x1="55"
-    y1="390"
-    x2="1545"
-    y2="390"
-    stroke="#0C3448"
-    stroke-width="1"/>
-
-
-  <text
-    x="70"
-    y="415"
-    font-family="'Courier New', monospace"
-    font-size="10"
-    letter-spacing="2"
-    fill="#41697B">
-
-    DREXON_CORE / 01
-
-  </text>
-
-
-  <text
-    x="800"
-    y="415"
-    text-anchor="middle"
-    font-family="'Courier New', monospace"
-    font-size="10"
-    letter-spacing="3"
-    fill="#41697B">
-
-    CODE • NETWORK • SECURITY • SYSTEMS
-
-  </text>
-
-
-  <text
-    x="1530"
-    y="415"
-    text-anchor="end"
-    font-family="'Courier New', monospace"
-    font-size="10"
-    letter-spacing="2"
-    fill="#41697B">
-
-    STATUS: OPERATIONAL
-
-  </text>
-
-
-  <!-- =====================================================
-       HUD CORNERS
-  ====================================================== -->
-
-  <g
-    fill="none"
-    stroke="#00BFFF"
-    stroke-width="2">
-
-    <path d="M30 75 V30 H145"/>
-
-    <path d="M1570 75 V30 H1455"/>
-
-    <path d="M30 375 V420 H145"/>
-
-    <path d="M1570 375 V420 H1455"/>
-
-  </g>
-
-
-  <!-- SMALL HUD MARKERS -->
-
-  <g fill="#00D9FF">
-
-    <rect
-      x="30"
-      y="30"
-      width="7"
-      height="7"/>
-
-    <rect
-      x="1563"
-      y="30"
-      width="7"
-      height="7"/>
-
-    <rect
-      x="30"
-      y="413"
-      width="7"
-      height="7"/>
-
-    <rect
-      x="1563"
-      y="413"
-      width="7"
-      height="7"/>
-
-  </g>
-
-
-  <!-- =====================================================
-       ELECTRIC PARTICLES
-  ====================================================== -->
-
-  <g fill="#00D9FF">
-
-    <circle cx="270" cy="300" r="2">
-      <animate
-        attributeName="opacity"
-        values="0;.9;0"
-        dur="3s"
-        repeatCount="indefinite"/>
+  <g clip-path="url(#frame)">
+    <rect width="1600" height="450" fill="url(#background)"/>
+    <rect width="1600" height="450" fill="url(#grid)"/>
+    <ellipse cx="1180" cy="220" rx="440" ry="300" fill="url(#ambient)"/>
+
+    <!-- Left editorial panel -->
+    <path d="M0 0H920L780 450H0Z" fill="#0B0D0A" fill-opacity=".93"/>
+    <path d="M920 0L780 450" stroke="url(#accent)" stroke-width="2" opacity=".8"/>
+
+    <!-- Brand label -->
+    <rect x="76" y="66" width="9" height="9" fill="#C8FF00"/>
+    <text x="98" y="75" fill="#AAB19D" font-family="monospace" font-size="12" letter-spacing="3">INDEPENDENT TECHNICAL WORKSPACE</text>
+
+    <!-- Distinctive wordmark -->
+    <text x="70" y="190" font-family="Arial,Helvetica,sans-serif" font-size="105" font-weight="800" letter-spacing="-5" fill="#F3F5EF">dr3x<tspan fill="#C8FF00">0</tspan>n</text>
+    <path d="M76 212H440" stroke="#C8FF00" stroke-width="3"/>
+    <path d="M440 212H500" stroke="#FF5C23" stroke-width="3"/>
+
+    <!-- Role lines -->
+    <text x="78" y="252" fill="#C8FF00" font-family="monospace" font-size="14" letter-spacing="2">COMPUTER ENGINEERING</text>
+    <text x="78" y="280" fill="#F3F5EF" font-family="monospace" font-size="14" letter-spacing="2">CYBERSECURITY / SOFTWARE</text>
+    <text x="78" y="323" fill="#8B9182" font-family="Arial,Helvetica,sans-serif" font-size="16">Build. Test. Understand. Secure.</text>
+
+    <!-- Terminal command panel -->
+    <rect x="76" y="354" width="520" height="54" rx="5" fill="#11140E" stroke="#31382A"/>
+    <circle cx="94" cy="371" r="3" fill="#FF5C23"/>
+    <circle cx="106" cy="371" r="3" fill="#C8FF00"/>
+    <circle cx="118" cy="371" r="3" fill="#6C7462"/>
+    <text x="94" y="393" font-family="monospace" font-size="13">
+      <tspan fill="#C8FF00">dr3x0n@lab</tspan><tspan fill="#F3F5EF">:~$ </tspan><tspan fill="#FF5C23">whoami</tspan>
+    </text>
+
+    <!-- Right: geometric network structure -->
+    <g transform="translate(1190 218)" stroke-linejoin="round" fill="none">
+      <g stroke="#C8FF00" stroke-opacity=".55" stroke-width="1.4">
+        <path d="M0 -135L117 -68L117 68L0 135L-117 68L-117 -68Z"/>
+        <path d="M0 -135L0 0L117 68M0 0L-117 68M0 0L117 -68M0 0L-117 -68M0 0V135"/>
+        <path d="M-117 -68L0 135M117 -68L-117 68M0 -135L117 68"/>
+        <path d="M-168 -10L-117 -10M117 10H168M0 -178V-135M0 135V178"/>
+      </g>
+      <g stroke="#FF5C23" stroke-width="2">
+        <path d="M0 -135L117 -68L168 -10"/>
+        <path d="M-117 68L-168 110"/>
+        <path d="M0 0L67 -39"/>
+      </g>
+      <circle cx="0" cy="0" r="45" fill="#12170C" stroke="#C8FF00" stroke-width="2"/>
+      <circle cx="0" cy="0" r="31" stroke="#C8FF00" stroke-opacity=".5" stroke-dasharray="3 6"/>
+      <path d="M-13 -2L-3 9L17 -14" stroke="#C8FF00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+      <g fill="#C8FF00" stroke="none">
+        <circle cx="0" cy="-135" r="5"/>
+        <circle cx="117" cy="-68" r="5"/>
+        <circle cx="117" cy="68" r="5"/>
+        <circle cx="0" cy="135" r="5"/>
+        <circle cx="-117" cy="68" r="5"/>
+        <circle cx="-117" cy="-68" r="5"/>
+      </g>
+      <g fill="#FF5C23" stroke="none">
+        <circle cx="168" cy="-10" r="5"/>
+        <circle cx="-168" cy="110" r="5"/>
+        <circle cx="67" cy="-39" r="4"/>
+      </g>
+      <circle r="190" stroke="#C8FF00" stroke-opacity=".13" stroke-dasharray="2 10"/>
+      <circle r="164" stroke="#FF5C23" stroke-opacity=".17" stroke-dasharray="32 16"/>
+    </g>
+
+    <!-- Right side metadata -->
+    <g font-family="monospace" font-size="10" letter-spacing="2" fill="#919987">
+      <text x="1000" y="54">NODE_01</text>
+      <text x="1508" y="54" text-anchor="end">RESEARCH / BUILD</text>
+      <text x="1000" y="400">NETWORK // SYSTEMS // SECURITY</text>
+      <text x="1508" y="400" text-anchor="end">LOCAL LAB</text>
+    </g>
+
+    <!-- Bottom accent rail -->
+    <rect x="0" y="438" width="1600" height="12" fill="#171A13"/>
+    <rect x="0" y="438" width="300" height="3" fill="#C8FF00"/>
+    <rect x="300" y="438" width="90" height="3" fill="#FF5C23"/>
+    <rect x="390" y="438" width="1210" height="3" fill="#34392C"/>
+
+    <!-- Subtle animation -->
+    <circle cx="1190" cy="218" r="205" stroke="#C8FF00" stroke-opacity=".3" stroke-dasharray="2 22" fill="none">
+      <animateTransform attributeName="transform" type="rotate" from="0 1190 218" to="360 1190 218" dur="65s" repeatCount="indefinite"/>
     </circle>
-
-    <circle cx="1330" cy="300" r="2">
-      <animate
-        attributeName="opacity"
-        values="0;.8;0"
-        dur="4s"
-        begin="1s"
-        repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="320" cy="175" r="1.5">
-      <animate
-        attributeName="opacity"
-        values="0;.8;0"
-        dur="2.5s"
-        begin=".5s"
-        repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="1280" cy="175" r="1.5">
-      <animate
-        attributeName="opacity"
-        values="0;.8;0"
-        dur="3.2s"
-        begin="1.4s"
-        repeatCount="indefinite"/>
-    </circle>
-
   </g>
-
-
-  <!-- =====================================================
-       SCAN LINE
-  ====================================================== -->
-
-  <rect
-    x="0"
-    y="-80"
-    width="1600"
-    height="80"
-    fill="#00D9FF"
-    opacity=".035"
-    class="scan"/>
-
-
 </svg>
